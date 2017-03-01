@@ -46,7 +46,7 @@ pod "Katip"
 
 ## Author
 
-nahitheper@gmail.com, nahitheper@gmail.com
+[Nahit Rüştü Heper](mailto:nahitheper@gmail.com)
 
 ## License
 
