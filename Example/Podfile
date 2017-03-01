@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Katip_Example' do
+  pod 'Katip', :path => '../'
+
+  target 'Katip_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

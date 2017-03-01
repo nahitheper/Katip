@@ -1,0 +1,22 @@
+{
+  "name": "Katip",
+  "version": "0.1.0",
+  "summary": "A short description of Katip.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nahitheper@gmail.com/Katip",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nahitheper@gmail.com": "nahitheper@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nahitheper@gmail.com/Katip.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Katip/Classes/**/*"
+}

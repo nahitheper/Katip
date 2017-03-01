@@ -1,0 +1,6 @@
+framework module Katip {
+  umbrella header "Katip-umbrella.h"
+
+  export *
+  module * { export * }
+}

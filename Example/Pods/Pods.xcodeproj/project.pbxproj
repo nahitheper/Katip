@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064642608D7ECB5DF298DD3FBEE2968B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		158D03FB50D554BCD9BF10A3F59FEACC /* Katip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A763A1EB3C30ADE149E57BCC22792 /* Katip-dummy.m */; };
+		2A41EF43488CDE2A81BB83995B4A5406 /* Pods-Katip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EF45A88ECACCECA110550198880828 /* Pods-Katip_Tests-dummy.m */; };
+		41360E95F68A0CE5A7BFC30A3B4B6685 /* Katip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950D87409681927E0FC840AC1498E0C8 /* Katip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708732D93B94581A9529972F105392FB /* Katip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B8530CE7FF9B09D2F01002AA464E5 /* Katip.swift */; };
+		796009D2696121BD39525852B8A94E37 /* Pods-Katip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8D757C7E0499396FAB5CDE407A4A46 /* Pods-Katip_Example-dummy.m */; };
+		993EC24C383483985B5A1915F02BAD7E /* Pods-Katip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D24F0CCB8B33B497BE24E163A695AA2C /* Pods-Katip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB71014CBFAFECCC477816D6409A9C2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C02AD8732C3E5A6D769F68E417ADA2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E3C2FD27F770F9EE207222B4DBDA8F77 /* Pods-Katip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7595DD1121421994D516B80CFB2DB1C /* Pods-Katip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497C168E25A3267C20D479F8E7518822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775459C133689D07A5EE87E3E325C18E;
+			remoteInfo = Katip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041D636453ECBAAE06FFB4B13E575756 /* Katip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Katip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B39FF78EA888C091D8133B5FEF95F98 /* Pods-Katip_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Katip_Tests-resources.sh"; sourceTree = "<group>"; };
+		2C3FC34F5CCA7C0B38F841DD1DB18DDE /* Pods-Katip_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Katip_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3ED92EB445D9FB015371D014A75CE0E7 /* Pods-Katip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Katip_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		509F22E6381E61F67B3477D4F6896A15 /* Pods_Katip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Katip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519A367929308A785D68558379AEC213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCB4D488B786C2ED3261A7810ABB3A0 /* Pods-Katip_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Katip_Example.modulemap"; sourceTree = "<group>"; };
+		5D8D757C7E0499396FAB5CDE407A4A46 /* Pods-Katip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Katip_Example-dummy.m"; sourceTree = "<group>"; };
+		61764A4EC1164EA73C50CCB75AE53B5E /* Pods_Katip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Katip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FBE61B2586550CA723D6F30D0AB77F /* Pods-Katip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Katip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68353B173C2AADDE4C7A85EDC5EB03FF /* Pods-Katip_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Katip_Example-resources.sh"; sourceTree = "<group>"; };
+		6A1541D81C76ACC5DB6D3CC6556CB7A3 /* Pods-Katip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Katip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8564BB6C3CF799D8F84BC4F971449EE5 /* Pods-Katip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Katip_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950D87409681927E0FC840AC1498E0C8 /* Katip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Katip-umbrella.h"; sourceTree = "<group>"; };
+		9B37728E5606C5F1BCCC7D8FAA4BB078 /* Pods-Katip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Katip_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F2B8530CE7FF9B09D2F01002AA464E5 /* Katip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Katip.swift; sourceTree = "<group>"; };
+		A6628D4AE6D04517C9275266CA4A4B53 /* Katip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Katip-prefix.pch"; sourceTree = "<group>"; };
+		A931441CDA01B7B2B79A5053A231E1A9 /* Pods-Katip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Katip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2EF45A88ECACCECA110550198880828 /* Pods-Katip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Katip_Tests-dummy.m"; sourceTree = "<group>"; };
+		C318E2C78DADE2CE7CE7376359623DE5 /* Pods-Katip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Katip_Tests.modulemap"; sourceTree = "<group>"; };
+		C73A763A1EB3C30ADE149E57BCC22792 /* Katip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Katip-dummy.m"; sourceTree = "<group>"; };
+		C7595DD1121421994D516B80CFB2DB1C /* Pods-Katip_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Katip_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CECC3761AAE5FA8B97D2FC6CE48C98C1 /* Katip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Katip.xcconfig; sourceTree = "<group>"; };
+		D24F0CCB8B33B497BE24E163A695AA2C /* Pods-Katip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Katip_Example-umbrella.h"; sourceTree = "<group>"; };
+		D3D9F0D8318A82698341A0B70D9043A6 /* Katip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Katip.modulemap; sourceTree = "<group>"; };
+		E0B4E4FE3C26FFA77004750F027AD873 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF28EB7E3CB33C6820F015FC82DA262 /* Pods-Katip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Katip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F85327DD166490AD493A01FF8E9653F0 /* Pods-Katip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Katip_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0E6607F54E85C3D4E732F0996D7E16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1590077C59D24F2DB157A787F170BD /* Pods-Katip_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Katip_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805E66200DC5445AA3AF11940D485411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71014CBFAFECCC477816D6409A9C2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DC4CA6FA59ACD068D281EF64A651BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064642608D7ECB5DF298DD3FBEE2968B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21E81FE9B8098B0E9E1D820169BC439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02AD8732C3E5A6D769F68E417ADA2ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1E705BD695F42FF8C9823618EBD445 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F2B8530CE7FF9B09D2F01002AA464E5 /* Katip.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A6095AAA0C73E48A2E38983BC27537D /* Katip */ = {
+			isa = PBXGroup;
+			children = (
+				0A1E705BD695F42FF8C9823618EBD445 /* Classes */,
+			);
+			path = Katip;
+			sourceTree = "<group>";
+		};
+		4613A7A9E13122A6A494C408E96A81C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0B4E4FE3C26FFA77004750F027AD873 /* Info.plist */,
+				D3D9F0D8318A82698341A0B70D9043A6 /* Katip.modulemap */,
+				CECC3761AAE5FA8B97D2FC6CE48C98C1 /* Katip.xcconfig */,
+				C73A763A1EB3C30ADE149E57BCC22792 /* Katip-dummy.m */,
+				A6628D4AE6D04517C9275266CA4A4B53 /* Katip-prefix.pch */,
+				950D87409681927E0FC840AC1498E0C8 /* Katip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Katip";
+			sourceTree = "<group>";
+		};
+		4B2EA5DD1DC9A7AAB26C3B7BA8234D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041D636453ECBAAE06FFB4B13E575756 /* Katip.framework */,
+				61764A4EC1164EA73C50CCB75AE53B5E /* Pods_Katip_Example.framework */,
+				509F22E6381E61F67B3477D4F6896A15 /* Pods_Katip_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB6C07A1C045A28D2D37029C9EBF57A /* Pods-Katip_Example */ = {
+			isa = PBXGroup;
+			children = (
+				519A367929308A785D68558379AEC213 /* Info.plist */,
+				5CCB4D488B786C2ED3261A7810ABB3A0 /* Pods-Katip_Example.modulemap */,
+				EDF28EB7E3CB33C6820F015FC82DA262 /* Pods-Katip_Example-acknowledgements.markdown */,
+				65FBE61B2586550CA723D6F30D0AB77F /* Pods-Katip_Example-acknowledgements.plist */,
+				5D8D757C7E0499396FAB5CDE407A4A46 /* Pods-Katip_Example-dummy.m */,
+				8564BB6C3CF799D8F84BC4F971449EE5 /* Pods-Katip_Example-frameworks.sh */,
+				68353B173C2AADDE4C7A85EDC5EB03FF /* Pods-Katip_Example-resources.sh */,
+				D24F0CCB8B33B497BE24E163A695AA2C /* Pods-Katip_Example-umbrella.h */,
+				F85327DD166490AD493A01FF8E9653F0 /* Pods-Katip_Example.debug.xcconfig */,
+				9B37728E5606C5F1BCCC7D8FAA4BB078 /* Pods-Katip_Example.release.xcconfig */,
+			);
+			name = "Pods-Katip_Example";
+			path = "Target Support Files/Pods-Katip_Example";
+			sourceTree = "<group>";
+		};
+		5C8828870FA10D6BA32D99DEFCB68A6C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A1085E38D181D915065B6E9D7682D /* Katip */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5C8828870FA10D6BA32D99DEFCB68A6C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4B2EA5DD1DC9A7AAB26C3B7BA8234D75 /* Products */,
+				C877642080B6AF534C3F32ACDB97900C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D342FA9DE9F5B352C7999A0CC599C6E /* Pods-Katip_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0E6607F54E85C3D4E732F0996D7E16 /* Info.plist */,
+				C318E2C78DADE2CE7CE7376359623DE5 /* Pods-Katip_Tests.modulemap */,
+				A931441CDA01B7B2B79A5053A231E1A9 /* Pods-Katip_Tests-acknowledgements.markdown */,
+				FB1590077C59D24F2DB157A787F170BD /* Pods-Katip_Tests-acknowledgements.plist */,
+				B2EF45A88ECACCECA110550198880828 /* Pods-Katip_Tests-dummy.m */,
+				2C3FC34F5CCA7C0B38F841DD1DB18DDE /* Pods-Katip_Tests-frameworks.sh */,
+				0B39FF78EA888C091D8133B5FEF95F98 /* Pods-Katip_Tests-resources.sh */,
+				C7595DD1121421994D516B80CFB2DB1C /* Pods-Katip_Tests-umbrella.h */,
+				6A1541D81C76ACC5DB6D3CC6556CB7A3 /* Pods-Katip_Tests.debug.xcconfig */,
+				3ED92EB445D9FB015371D014A75CE0E7 /* Pods-Katip_Tests.release.xcconfig */,
+			);
+			name = "Pods-Katip_Tests";
+			path = "Target Support Files/Pods-Katip_Tests";
+			sourceTree = "<group>";
+		};
+		9D6A1085E38D181D915065B6E9D7682D /* Katip */ = {
+			isa = PBXGroup;
+			children = (
+				0A6095AAA0C73E48A2E38983BC27537D /* Katip */,
+				4613A7A9E13122A6A494C408E96A81C1 /* Support Files */,
+			);
+			name = Katip;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C877642080B6AF534C3F32ACDB97900C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB6C07A1C045A28D2D37029C9EBF57A /* Pods-Katip_Example */,
+				8D342FA9DE9F5B352C7999A0CC599C6E /* Pods-Katip_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E9347A28DD0EEDE35E82BB39CB1B564 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993EC24C383483985B5A1915F02BAD7E /* Pods-Katip_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF41DF6991E66F933D7E749293573730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C2FD27F770F9EE207222B4DBDA8F77 /* Pods-Katip_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB6F8D2FE221683427336ACB005E46C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41360E95F68A0CE5A7BFC30A3B4B6685 /* Katip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ADE94723D7B0D814219A37C67D7835C /* Pods-Katip_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE15BCEFDB3FECA36CBFC0630E1FEF8 /* Build configuration list for PBXNativeTarget "Pods-Katip_Tests" */;
+			buildPhases = (
+				4866A799161279747BC800CCCA0C138F /* Sources */,
+				E21E81FE9B8098B0E9E1D820169BC439 /* Frameworks */,
+				DF41DF6991E66F933D7E749293573730 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Katip_Tests";
+			productName = "Pods-Katip_Tests";
+			productReference = 509F22E6381E61F67B3477D4F6896A15 /* Pods_Katip_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		775459C133689D07A5EE87E3E325C18E /* Katip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABB0E72E9DAB46D31505A14E5ACDD37 /* Build configuration list for PBXNativeTarget "Katip" */;
+			buildPhases = (
+				AD6B10CFD5BCA6822915FAFCDECBB651 /* Sources */,
+				D5DC4CA6FA59ACD068D281EF64A651BB /* Frameworks */,
+				FDB6F8D2FE221683427336ACB005E46C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Katip;
+			productName = Katip;
+			productReference = 041D636453ECBAAE06FFB4B13E575756 /* Katip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1B072E163C601E7DB4895C0339142B2 /* Pods-Katip_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8CBAF5EFF874E14B449A1C97AA002C /* Build configuration list for PBXNativeTarget "Pods-Katip_Example" */;
+			buildPhases = (
+				57CC2CC5D7E32FD55E7BA2D004DC25DF /* Sources */,
+				805E66200DC5445AA3AF11940D485411 /* Frameworks */,
+				1E9347A28DD0EEDE35E82BB39CB1B564 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3461588FDAD68E4AC62A6062A4828202 /* PBXTargetDependency */,
+			);
+			name = "Pods-Katip_Example";
+			productName = "Pods-Katip_Example";
+			productReference = 61764A4EC1164EA73C50CCB75AE53B5E /* Pods_Katip_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B2EA5DD1DC9A7AAB26C3B7BA8234D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775459C133689D07A5EE87E3E325C18E /* Katip */,
+				F1B072E163C601E7DB4895C0339142B2 /* Pods-Katip_Example */,
+				2ADE94723D7B0D814219A37C67D7835C /* Pods-Katip_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4866A799161279747BC800CCCA0C138F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41EF43488CDE2A81BB83995B4A5406 /* Pods-Katip_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CC2CC5D7E32FD55E7BA2D004DC25DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796009D2696121BD39525852B8A94E37 /* Pods-Katip_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6B10CFD5BCA6822915FAFCDECBB651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158D03FB50D554BCD9BF10A3F59FEACC /* Katip-dummy.m in Sources */,
+				708732D93B94581A9529972F105392FB /* Katip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3461588FDAD68E4AC62A6062A4828202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Katip;
+			target = 775459C133689D07A5EE87E3E325C18E /* Katip */;
+			targetProxy = 497C168E25A3267C20D479F8E7518822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076E862AE607319C28E8E08300AB84B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED92EB445D9FB015371D014A75CE0E7 /* Pods-Katip_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Katip_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Katip_Tests/Pods-Katip_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Katip_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A6AC7CCF4A1D0B2ADD50E02C0AAFA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85327DD166490AD493A01FF8E9653F0 /* Pods-Katip_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Katip_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Katip_Example/Pods-Katip_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Katip_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47743ADCEF9AD2381F1405C533F49B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECC3761AAE5FA8B97D2FC6CE48C98C1 /* Katip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Katip/Katip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Katip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Katip/Katip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Katip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC10C9C76A53A5978C9C9B23B120687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B37728E5606C5F1BCCC7D8FAA4BB078 /* Pods-Katip_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Katip_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Katip_Example/Pods-Katip_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Katip_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E30EDA0B8B7522341E62B920C56F116F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1541D81C76ACC5DB6D3CC6556CB7A3 /* Pods-Katip_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Katip_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Katip_Tests/Pods-Katip_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Katip_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4166F41DE4F694AA3C9AEB3D934B7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECC3761AAE5FA8B97D2FC6CE48C98C1 /* Katip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Katip/Katip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Katip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Katip/Katip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Katip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8CBAF5EFF874E14B449A1C97AA002C /* Build configuration list for PBXNativeTarget "Pods-Katip_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6AC7CCF4A1D0B2ADD50E02C0AAFA49 /* Debug */,
+				8EC10C9C76A53A5978C9C9B23B120687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE15BCEFDB3FECA36CBFC0630E1FEF8 /* Build configuration list for PBXNativeTarget "Pods-Katip_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30EDA0B8B7522341E62B920C56F116F /* Debug */,
+				076E862AE607319C28E8E08300AB84B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABB0E72E9DAB46D31505A14E5ACDD37 /* Build configuration list for PBXNativeTarget "Katip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4166F41DE4F694AA3C9AEB3D934B7C6 /* Debug */,
+				47743ADCEF9AD2381F1405C533F49B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

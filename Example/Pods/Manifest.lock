@@ -1,0 +1,16 @@
+PODS:
+  - Katip (0.1.0)
+
+DEPENDENCIES:
+  - Katip (from `../`)
+
+EXTERNAL SOURCES:
+  Katip:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Katip: 25ea3a299a33f966bbf86d243c8788bc00e1c74e
+
+PODFILE CHECKSUM: 575d79237e99f873fa51d3895613ffa52d64e295
+
+COCOAPODS: 1.1.1
